@@ -13,7 +13,7 @@ spec:
         app: akssimpleapplication
     spec:
       containers:
-      - name: AksApplication-master
+      - name: akssimpleapplication
         image: simpleacr.azurecr.io/reddivaripriyanka/aksapplication:#{Build.BuildId}#
         ports:
         - containerPort: 80
