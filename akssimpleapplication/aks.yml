@@ -23,7 +23,7 @@ spec:
               fieldRef:
                 fieldPath: metadata.name
       imagePullSecrets:
-      - name: priyankaaks
+      - name: demoaks
 ---
 apiVersion: v1
 kind: Service
